@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RecyclerView"><attr format="string" name="layoutManager"/><attr name="android:orientation"/><attr format="integer" name="spanCount"/><attr format="boolean" name="reverseLayout"/><attr format="boolean" name="stackFromEnd"/></declare-styleable>
+    <!-- From: file:/E:/Video/5-Android/code/Challenge2b/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.0/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
+    <item name="item_touch_helper_previous_elevation" type="id"/>
+    <!-- From: file:/E:/Video/5-Android/code/Challenge2b/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Challenge2</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- From: file:/E:/Video/5-Android/code/Challenge2b/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:paddingLeft="5dp"
+    android:paddingRight="10dp"
+    android:paddingTop="2dp">
+
+    <ImageView
+        android:id="@+id/ivPoster"
+        android:layout_width="66dp"
+        android:layout_height="100dp" />
+
+    <ImageView
+        android:id="@+id/ivRibbon"
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/ivPoster"
+        android:layout_alignTop="@+id/ivPoster"
+        android:background="@drawable/ic_watchribbon"
+        android:visibility="invisible" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ivPoster"
+        android:layout_alignTop="@+id/ivPoster"
+        android:layout_toRightOf="@+id/ivPoster"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="Movie Title"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tvTitle"
+            android:layout_toRightOf="@+id/tvTitle"
+            android:ellipsize="end"
+            android:paddingLeft="3dp"
+            android:singleLine="true"
+            android:text="(year)" />
+
+        <ImageView
+            android:id="@+id/ivStar"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_below="@+id/tvTitle"
+            android:background="@drawable/ic_star_rating" />
+
+        <TextView
+            android:id="@+id/tvRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ivStar"
+            android:layout_toRightOf="@+id/ivStar"
+            android:paddingLeft="5dp"
+            android:text="0.0"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/ibWatch"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_below="@+id/ivStar"
+            android:layout_marginTop="10dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_watch_now" />
+
+        <TextView
+            android:id="@+id/tvWatch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ibWatch"
+            android:layout_alignTop="@+id/ibWatch"
+            android:layout_toRightOf="@+id/ibWatch"
+            android:gravity="center"
+            android:text="WATCH NOW" />
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/E:/Video/5-Android/code/Challenge2b/app/src/main/res/layout/movie_item_layout.xml -->

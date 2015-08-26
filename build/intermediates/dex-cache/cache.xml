@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\Video\5-Android\code\Challenge2b\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="40e7757d9b06db670062ddb3cf5b30c129b2fd8c">
+        <dex dex="E:\Video\5-Android\code\Challenge2b\app\build\intermediates\pre-dexed\debug\classes-a0da36cfe5c543e81479a4d31b8793395212f565.jar" />
+    </item>
+    <item
+        jar="D:\Software\Programming\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="E:\Video\5-Android\code\Challenge2b\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.0-0f904d959bff45ee8cf462ed86ad59651fde2a2a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3\5fc52c41ef0239d1093a1eb7c3697036183677ce\gson-2.3.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
+        <dex dex="E:\Video\5-Android\code\Challenge2b\app\build\intermediates\pre-dexed\debug\gson-2.3-a3d3cdd10d85735a8d7a5cfab1077c376e3d9a30.jar" />
+    </item>
+    <item
+        jar="E:\Video\5-Android\code\Challenge2b\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="E:\Video\5-Android\code\Challenge2b\app\build\intermediates\pre-dexed\debug\classes-53d8fd48a37851e9cb358c4ef5d71776d6f3393e.jar" />
+    </item>
+    <item
+        jar="E:\Video\5-Android\code\Challenge2b\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="E:\Video\5-Android\code\Challenge2b\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0-d6cfa8124539dacb4c2566a9a0a42d628563f609.jar" />
+    </item>
+
+</items>
