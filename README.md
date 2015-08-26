@@ -1,6 +1,4 @@
 # Challenge2b
-RecyclerView
-
 
 ---------------------- Requirements -----------------------------
 
@@ -13,6 +11,7 @@ RecyclerView
 
 
 
+------------------------------------------------------------------------
 ---------------------- RecyclerView ------------------------------------
 
 - Từ android 5.0
@@ -63,7 +62,6 @@ RecyclerView
 	+ Item vừa xuất hiện này sẽ có các trạng thái mà item cũ trong Recycler đã có. Ví dụ: item cũ có CheckBox đã được check thì item mới xuất hiện cũng sẽ có CheckBox tương ứng đã 	được check
 	+ Cơ chế này giúp tối ưu hiệu quả thực thi, vì ko tạo mới view mà reuse từ view cũ
 
-
 ----------------------- References ----------------------------------------------
 
 - http://www.nguyenvanquan7826.com/2015/05/31/android-recyclerview-trong-android/
@@ -79,6 +77,7 @@ RecyclerView
 
 
 
+--------------------------------------------------------------------------------------------
 ------------------------ Git and Github ----------------------------------------------------
 
 - Git là một mô hình Hệ thống quản lý phiên bản phân tán (Distributed Version Control System – DVCS)
@@ -95,10 +94,37 @@ RecyclerView
 
 - Githuh là một dịch vụ máy chủ repository hoạt động theo mô hình Git
 
-
-
 --------------------------- Refererences ---------------------------------------
 
 - http://thachpham.com/tools/git-gioi-thieu-serie-git-co-ban.html
 
 - http://portal.daynhauhoc.com/p/huong-dan-dung-github-tren-windows-co-ban/
+
+
+
+----------------------------------------------------------------------------------
+---------------------------- Gson ------------------------------------------------
+
+- Example:
+
+private class SomeObject {
+  @SerializedName("custom_naming") private final String someField;
+  private final String someOtherField;
+
+  public SomeObject(String a, String b) {
+    this.someField = a;
+    this.someOtherField = b;
+  }
+}
+
+SomeObject someObject = new SomeObject("first", "second");
+Gson gson = new GsonBuilder().setFieldNamingPolicy(FieldNamingPolicy.UPPER_CAMEL_CASE).create();
+String jsonRepresentation = gson.toJson(someObject);
+System.out.println(jsonRepresentation);
+
+======== OUTPUT ========
+{"custom_naming":"first","SomeOtherField":"second"}
+
+------------------------ References -------------------------------------------
+
+- https://sites.google.com/site/gson/gson-user-guide#TOC-JSON-Field-Naming-Support
