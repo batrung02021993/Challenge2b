@@ -76,3 +76,29 @@ RecyclerView
 - https://developer.android.com/reference/android/support/v7/widget/RecyclerView.html
 
 - http://stackoverflow.com/questions/11945563/how-listviews-recycling-mechanism-works
+
+
+
+------------------------ Git and Github ----------------------------------------------------
+
+- Git là một mô hình Hệ thống quản lý phiên bản phân tán (Distributed Version Control System – DVCS)
+
+- Sẽ có 1 server lưu trữ các version (những lần thay đổi) của src code. Những máy tính có quyền truy cập vào src code đó trên server, lấy version nào cần thiết, có thể thay đổi code rồi commit lại lên server
+
+- Ko cần copy lại src code để backup thủ công
+
+- Git lưu trữ version bằng cách tạo ra các snapshot chứ ko lưu cứng dữ liệu
+
+- Giúp làm việc code theo nhóm đơn giản hơn - Làm việc ở bất cứ đâu (cần có internet)
+
+
+
+- Githuh là một dịch vụ máy chủ repository hoạt động theo mô hình Git
+
+
+
+--------------------------- Refererences ---------------------------------------
+
+- http://thachpham.com/tools/git-gioi-thieu-serie-git-co-ban.html
+
+- http://portal.daynhauhoc.com/p/huong-dan-dung-github-tren-windows-co-ban/
